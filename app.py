@@ -1,5 +1,6 @@
-from analyzer import detect_skills
 import streamlit as st
+from resume_parser import extract_text_from_pdf
+from analyzer import detect_skills
 from resume_parser import extract_text_from_pdf
 
 st.set_page_config(page_title="AI Resume Analyzer")
